@@ -1,0 +1,16 @@
+
+.card-view-dons-img{
+    height:10rem;
+}
+
+.card-view-dons{
+    width:20rem;
+}
+
+.card-view-dons-panel{
+    transition:transform 0.9s ease-in-out;
+}
+.card-view-dons-panel:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+}

@@ -1,0 +1,71 @@
+.third-step-container{
+}
+
+.third-step-who-container{
+    width: 40%;
+    color: #0b0d6e;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#btn-radio{
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.text-somme-class{
+    color: #000000;
+    font-size: 30px;
+    font-weight:bolder;
+    border: none;
+}
+
+.montant-don-input{
+    border:0;
+    border-bottom: 2px solid red;
+    background: rgb(251, 251, 251);
+    outline: none;
+    text-align: center;
+    margin: auto;
+    font-size:40px;
+    font-weight: bolder;
+}
+
+
+.montant-don-input:focus{
+    border: 0;
+    outline: none;
+    border-bottom: 2px solid red;
+}
+
+.third-message{
+    background: #0b0d6e;
+    font-size: 20px;
+    color: #fff;
+    
+}
+
+.third-message-p{
+    font-size: 20px;
+    color: #fff;
+    
+}
+
+@media only screen and (max-width: 992px) {
+   
+    .third-step-who-container{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+   
+    .third-step-who-container{
+        width: 100%;
+    }
+}
